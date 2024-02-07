@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    min-height: 100vh;
+    margin: auto;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+}
+.form-div form{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+.phoneimage{
+    width:360px;
+}
+.form-div form .logo{
+    width: 200px;
+    margin: 20px 0;
+}
+.input{
+    width: 100%;
+    padding: .4rem;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+.loginb{
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    background-color: rgb(75, 194, 242);
+    border-radius: 8px;
+    margin: 8px 0;
+    color: white;
+    border: #fff;
+}
+#or{
+    margin: 20px 0;
+}
+#or:before,
+#or:after{
+    content:'----------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+.fblogin{
+    font-weight: 700;
+    font-size: 85%;
+    color: rgb(47, 48, 101);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.sign-up{
+    width: 97%;
+    font-size: 85%;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 15px;
+    margin: 8px;
+    margin-left: 0px;
+}
+.get-app{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#play{
+    width: 120px;
+    border-radius: 8px;
+}
+#micro{
+    width: 115px;
+}
