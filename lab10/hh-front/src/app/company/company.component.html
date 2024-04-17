@@ -1,0 +1,8 @@
+<h1>About this company:</h1>
+<p>Name:{{company.name}}</p>
+<p>Description: {{company.description}}</p>
+<p>Location: {{company.city}}, {{company.address}}</p>
+
+<div *ngFor="let v of vacancies">
+    <app-vacancy [vacancy]="v"></app-vacancy>
+</div>
