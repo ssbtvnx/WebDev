@@ -1,0 +1,14 @@
+<div class="bouquet-details-container">
+
+<div *ngIf="bouquet">
+  <h2><strong>{{ bouquet.name }}</strong></h2>
+  <img [src]="bouquet.photoUrl" [alt]="bouquet.name">
+  <h4 id="price">Current price: {{ bouquet.price }} ₸</h4>
+  <p>Description: {{ bouquet.description }}</p>
+  <div class="cart-button">
+    <button type="button" (click)="addToCart(bouquet)">
+        <span></span>BUY
+      </button>
+  </div>
+</div>
+

@@ -1,0 +1,30 @@
+
+.bouquet-list {
+    display: flex; /* Отображаем элементы в виде горизонтального списка */
+    flex-wrap: wrap; /* Разрешаем перенос элементов на следующую строку */
+    justify-content: space-around; /* Выравниваем элементы по центру с равным расстоянием между ними */
+  }
+  
+  .bouquet-card {
+    width: 200px; /* Ширина карточки букета */
+    margin-bottom: 20px; /* Отступ между карточками */
+    margin-top: 30px;
+    padding: 20px; /* Поля внутри карточки */
+    border: 1px solid #ccc; /* Рамка вокруг карточки */
+    border-radius: 10px; /* Закругляем углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятия */
+  }
+  
+  .bouquet-card h3 {
+    margin-bottom: 10px; /* Отступ снизу для заголовка */
+  }
+  
+  .bouquet-card img {
+    width: 100%; /* Ширина изображения внутри карточки */
+    border-radius: 5px; /* Закругляем углы изображения */
+  }
+  
+  .bouquet-card p {
+    font-size: 16px; /* Размер текста цены */
+    margin-top: 10px; /* Отступ сверху для цены */
+  }

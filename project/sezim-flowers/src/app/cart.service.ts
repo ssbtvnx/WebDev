@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Bouquet } from './bouquet';
+import { Bouquet } from './bouquets';
 /* . . . */
 @Injectable({
   providedIn: 'root'

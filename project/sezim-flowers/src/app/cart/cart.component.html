@@ -1,7 +1,10 @@
-<!-- <a routerLink="['/']">
-    <h1>Sezim flowers</h1>
-  </a>
-  
-  <a routerLink="/cart" class="button fancy-button">
-    <em class="material-icons">shopping_cart</em>Корзина
-  </a> -->
+<h3>Cart</h3>
+
+<div class="cart-item" *ngFor="let item of items">
+    <span>{{ item.name }} </span>
+    <span>{{ item.price }} ₸</span>
+</div>
+
+<button type="button" (click)="clearCart()">
+  <span></span>Clear
+</button>
