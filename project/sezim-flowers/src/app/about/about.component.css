@@ -37,6 +37,13 @@ body{
     max-width: 50%;
 }
 
+.about-us img{
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+    border-radius: 25px;
+}
+
 .content{
     padding: 35px;
 }

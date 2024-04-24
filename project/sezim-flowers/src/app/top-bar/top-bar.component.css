@@ -10,7 +10,7 @@
     font-size: 27px;
   }
   .navbar{
-    background-color: #fff; 
+    background-color: #ffffff ; 
     width: 100%; 
     display: flex; 
     align-items: center;
@@ -38,7 +38,7 @@
   .icon {
     display: flex;
     align-items: center;
-    background-size: 100px;
+    
   }
 
   .icon .cart-button{
@@ -52,5 +52,3 @@
     width: 24px;
     height: 24px;
   }
-  
-  

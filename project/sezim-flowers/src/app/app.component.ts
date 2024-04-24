@@ -1,6 +1,8 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 
 // @NgModule({
@@ -25,6 +27,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
     RouterModule,
     RouterModule,
     TopBarComponent,
+    CommonModule,
+    FormsModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css', }

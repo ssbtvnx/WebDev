@@ -1,11 +1,10 @@
-
 <div class="bouquet-list">
-    <div *ngFor="let bouquet of bouquets" class="bouquet-card">
-      <h3>{{ bouquet.name }}</h3>
-      <a [routerLink]="['/bouquet-details', bouquet.id]">
-        <img [src]="bouquet.photoUrl" alt="{{ bouquet.name }}">
-      </a>
-      <p>Price: {{ bouquet.price }}</p>
-    </div>
+  <div *ngFor="let bouquet of bouquets" class="bouquet-card">
+    <h3>{{ bouquet.name }}</h3>
+    <a [routerLink]="['/bouquet-details', bouquet.id]">
+      <img [src]="bouquet.image" alt="{{ bouquet.name }}">
+    </a>
+    <p>Price: {{ bouquet.price }}</p>
+    <h4>Category: {{bouquet.category}}</h4>
   </div>
-  
+</div>

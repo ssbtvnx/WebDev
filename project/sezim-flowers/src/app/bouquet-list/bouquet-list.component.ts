@@ -1,10 +1,9 @@
-
 import { Component, Input, OnInit } from '@angular/core';
-import { Bouquet, bouquets } from '../bouquets'; 
+import { Bouquet } from '../bouquets'; // Импортируем интерфейс Bouquet
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { CartService } from '../cart.service';
+import { BackendService } from '../backend.service';
 
 @Component({
   selector: 'app-bouquet-list',
@@ -14,15 +13,18 @@ import { CartService } from '../cart.service';
   styleUrls: ['./bouquet-list.component.css']
 })
 export class BouquetListComponent implements OnInit{
+  bouquets: Bouquet[] = [];
 
-  constructor(private cartService: CartService) {}
+  constructor(private backendService: BackendService) {}
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.backendService.getBouquets().subscribe(
+      bouquets => {
+        this.bouquets = bouquets
+      }
+    )
   }
-  bouquets: Bouquet[] = bouquets;
-   // Здесь используется интерфейс Bouquet
 
-   
+   // Здесь используется интерфейс Bouquet
 }
 

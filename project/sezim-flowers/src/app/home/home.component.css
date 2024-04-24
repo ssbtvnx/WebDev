@@ -11,6 +11,7 @@
     background-size: cover;
     background-position: center;
     background-color: #e6e6e6;
+    /*clip-path: ellipse(60% 40% at center);*/
 }
 
 .content{
@@ -40,7 +41,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid  #6f855c;
+    border: 2px solid #6f855c;
     background: transparent;
     color: #fff;
     cursor: pointer;
