@@ -31,6 +31,7 @@ export class BouquetDetailsComponent implements OnInit {
 
   addToCart(bouquet: Bouquet){
     this.cartService.addToCart(bouquet);
+    console.log(this.cartService.getItems())
     window.alert('Added to cart successfuly!')
   }
 }

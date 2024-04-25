@@ -92,7 +92,7 @@ section a{
 }
 .submit-button:hover{
     background: black;
-    transform: scale(1.055, 1);
+    
 }
 .sign-up-link{
     text-align: center;

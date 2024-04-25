@@ -32,3 +32,27 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+.bouquet-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+  }
+
+.cart-item{
+    width: 300px; 
+    margin-bottom: 30px; 
+    margin-top: 50px;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #6f855c; 
+  }
+
+  .cart-item h3 {
+    margin-bottom: 10px; 
+  }
+
+  .cart-item p {
+    margin-top: 10px; 
+  }
